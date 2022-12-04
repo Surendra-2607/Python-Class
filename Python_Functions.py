@@ -2,32 +2,32 @@
 # What about len() 
 
 # Examples of inbuilt functions
-# list1 = [1,2,3,4,5,6]
-# print("Maximum number from list : ", max(list1))
-# print("Minimum number from list : ", min(list1))
-# print("Sum number from list : ", sum(list1))
+list1 = [1,2,3,4,5,6]
+print("Maximum number from list : ", max(list1))
+print("Minimum number from list : ", min(list1))
+print("Sum number from list : ", sum(list1))
 
 # How do functions works?
 # They may or may not accepts input parameter
 # They may or may not return any output
 
 
-# # example of a function which doesn't accept any parameter
-# # and doesn't return anything
-# def welcome_message():
-#     print("Welcome to iNeuron Batch-2 !!!")
+# example of a function which doesn't accept any parameter
+# and doesn't return anything
+def welcome_message():
+    print("Welcome to iNeuron Batch-2 !!!")
 
-# welcome_message()
+welcome_message()
 
 # # example of a function which doesn't accept any parameter
 # # and does return something
-# def bot_message():
-#     print("Message from Bot using Print!!")
-#     return "Message from Bot !!"
+def bot_message():
+    print("Message from Bot using Print!!")
+    return "Message from Bot !!"
 
-# print( bot_message() )
-# result = bot_message()
-# print("Output from bot_message() ", result)
+print( bot_message() )
+result = bot_message()
+print("Output from bot_message() ", result)
 
 
 # example of a function which accepts some parameter
@@ -41,8 +41,8 @@ def avg_of_two_nums( a , b):
 
 num1 = 10
 num2 = 15
-# output = avg_of_two_nums( num1, num2 )
-# print("Result of avg_of_two_nums functions : ", output)
+output = avg_of_two_nums( num1, num2 )
+print("Result of avg_of_two_nums functions : ", output)
 
 # output1 = avg_of_two_nums( num1 )
 # print("Result of avg_of_two_nums functions : ", output1)
@@ -103,6 +103,8 @@ print( multiply(num2) )
 # def multiply(a=3 , b):
 #     result = a * b
 #     return result
+
+# print( multiply(5) )
 
 def multiply(a , b=3, c=10):
     result = a * b * c
